@@ -20,7 +20,7 @@
 
     int num  = 10;
     int num2 = 20;
-    XCTAssertEqual(num2+num, 40);
+    XCTAssertEqual(num2+num, 30);
 }
 
 - (void)testPerformanceExample {
