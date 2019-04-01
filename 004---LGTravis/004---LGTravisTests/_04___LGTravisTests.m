@@ -17,8 +17,10 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    int num  = 10;
+    int num2 = 20;
+    XCTAssertEqual(num2+num, 40);
 }
 
 - (void)testPerformanceExample {
